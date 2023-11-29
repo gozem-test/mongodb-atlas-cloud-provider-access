@@ -1,3 +1,3 @@
-output "standard" {
-  value = mongodbatlas_cluster.cluster.connection_strings[0].standard
+output "role_id" {
+  value = mongodbatlas_cloud_provider_access.access.role_id
 }
